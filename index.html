@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grow Focus</title>
+    <link rel="shortcut icon" href="./src/img/plant.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/main.css">
+    <style>
+        body
+        {
+            cursor: url('./src/img/plant.png'), auto;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <!-- Display area for the stopwatch -->
+        <div id="window">00:00:00</div>
+        
+        <!-- Input fields for minutes and hours -->
+        <div class="input">
+          <input type="number" id="minutes" min="0" value="0" placeholder="Minutes">
+          <input type="number" id="hours" min="0" value="0" placeholder="Hours">
+        </div>
+        
+        <!-- Buttons for start, stop, reset -->
+        <div class="button">
+          <button type="button" id="start">Start</button>
+          <button type="button" id="stop">Stop</button>
+          <button type="button" id="reset">Reset</button>
+        </div>
+        <audio id="audioPlayer" controls>
+            <source src="./src/audio/song.mp3" type="audio/mp3">
+            Browser Anda tidak mendukung elemen audio.
+        </audio>
+      </div>
+    </div>
+    <!-- Link to JavaScript file -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>

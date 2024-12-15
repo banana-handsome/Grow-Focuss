@@ -1,0 +1,95 @@
+@import url('../../node_modules/@fontsource/jetbrains-mono/index.css');
+@import url('https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css');
+*
+{
+    font-family: "JetBrains Mono", serif;
+}
+
+body
+{
+    height: 100vh;
+}
+
+.container
+{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+.box
+{
+    background-color: #fff;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgb(202, 202, 202);
+    margin: 20px;
+}
+
+.box #window
+{
+    border: 2px solid gray;
+    padding: 10px;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+.box .input
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box .input input
+{
+    /* margin: 10px; */
+    text-align: center;
+    width: 40%;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    border: 2px solid gray;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+
+.box .input input:hover
+{
+    border-radius: 10px;
+}
+
+.box .button
+{
+    text-align: center;
+}
+
+.box .button button
+{
+    width: 48%;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    border: 2px solid gray;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+.box .button button:nth-child(3)
+{
+    width: 100%;
+}
+
+.box .button button:hover
+{
+    border-radius: 10px;
+}
+
+audio
+{
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 50px;
+}
+
